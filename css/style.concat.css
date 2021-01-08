@@ -408,10 +408,9 @@ body {
 .footer {
   background-color: #101d2c;
   grid-column: full-start / full-end;
-  padding: 8rem; }
+  padding: 4rem; }
 
 .nav {
-  list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 2rem;
@@ -431,10 +430,28 @@ body {
     transform: translateY(-3px); }
 
 .copyright {
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #aaa;
-  margin-top: 6rem;
+  margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 70%; }
+
+.aws {
+  padding-top: 3rem;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem; }
+  .aws__link {
+    font-size: 3rem;
+    color: #fff; }
+  .aws__image {
+    height: 3rem;
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    flex: 0 0 25%; }
+
+ul {
+  list-style: none;
+  list-style-type: none; }
